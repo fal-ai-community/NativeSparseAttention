@@ -1,3 +1,4 @@
-from .eager import test as main
+from . import util
+from . import eager
 
-__all__ = ['main']
+__all__ = ['util', 'eager']

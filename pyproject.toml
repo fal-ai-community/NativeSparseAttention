@@ -7,6 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "jaxtyping>=0.2.38",
     "lovely-tensors>=0.1.18",
+    "matplotlib>=3.10.0",
     "torch>=2.6.0",
 ]
 

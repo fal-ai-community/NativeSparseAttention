@@ -514,6 +514,7 @@ source = { editable = "." }
 dependencies = [
     { name = "jaxtyping" },
     { name = "lovely-tensors" },
+    { name = "matplotlib" },
     { name = "torch" },
 ]
 
@@ -521,6 +522,7 @@ dependencies = [
 requires-dist = [
     { name = "jaxtyping", specifier = ">=0.2.38" },
     { name = "lovely-tensors", specifier = ">=0.1.18" },
+    { name = "matplotlib", specifier = ">=3.10.0" },
     { name = "torch", specifier = ">=2.6.0" },
 ]
 
